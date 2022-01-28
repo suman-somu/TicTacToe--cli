@@ -134,9 +134,10 @@ public class ticTacToe {
             return true;
         else if(a[2] ==  a[4] && a[4] == a[6] )
             return true;
+        else
+            return false;
 
 
-        return false;
     }
 
 }
